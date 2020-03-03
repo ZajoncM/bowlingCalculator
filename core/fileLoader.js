@@ -22,8 +22,6 @@ const getFile = (players, filename) => {
       scores: file[i + 1].split(",").map(Number)
     });
   }
-
-  console.log(file)
 };
 
 module.exports = getFile;
